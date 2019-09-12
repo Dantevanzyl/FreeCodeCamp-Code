@@ -1,0 +1,11 @@
+function convertToInteger(str)
+{
+    if ( typeof str === 'string')
+    {
+    return parseInt(str)
+    }
+    
+ 
+}
+
+convertToInteger("56");
